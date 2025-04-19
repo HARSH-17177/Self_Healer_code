@@ -13,7 +13,7 @@ import ollama  # Make sure ollama is installed: pip install ollama
 with open(os.path.join(os.path.dirname(__file__), "..", "prompt.txt"), "r") as f:
     SYSTEM_PROMPT = f.read()
 
-DEFAULT_MODEL = "llama3.2:latest"
+DEFAULT_MODEL = "deepseek-r1"
 
 
 def run_script(script_name: str, script_args: List) -> str:

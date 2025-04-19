@@ -1,5 +1,5 @@
 hackathon_env
 .venv
-.env
+
 env/
 .vscode/
